@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>David's Portfolio</title>
+  <link rel="icon" href="Photos/usd-logo-removebg-preview.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/f7de093463.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="Photos/ColorSeal.png" class="logo"> 
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Undergraduate student at University of South Dakota</p>
+      <h1>Hi, I'm <span>David</span> <br>Isikwe from Nigeria</h1>
+      
+    </div>
+  </div>
+</div>
+<!--------about me code ------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Photos/IMG_0431.JPG">
+      </div>
+       <div class="about-col-2">
+         <h1 class="sub-title">About Me</h1>
+         <p>
+         I am a computer science student at the University of South Dakota with a current GPA of 3.7. I am a technology enthusiast who has developed my skills in Java, HTML/CSS/JavaScript , and C++. In addition, I have prior expertise delivering technology services, having worked as a Service Desk/Lab Consultant and Student Programmer. I'm looking for internships in Web Development, UI/UX Design, or Software Development. I am eager to get hands-on knowledge and experience while still in school, in order to make a smooth transition into the IT industry after graduation. My strong analytical skills, innovative problem-solving aptitude, and desire to keep current on industry trends are my assets. I tackle each assignment with dedication and collaboration, preparing me for the fast-paced needs of IT industry. I am a friendly, outgoing person who enjoys working with others and am convinced that I will be an asset to any team.
+</p>
+
+         <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+         </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Languages</span><br>Java, C++, HTML, CSS, JavaScript</li>
+              <li><span>Team Collaboration</span><br>Different volunteer and job experiences with both big and small teams</li>
+               <li><span>Adaptability</span><br>Working in complex and fast-paced spaces.</li>
+            </ul>
+          </div>
+
+         <div class="tab-contents" id="experience">
+           <ul>
+             <li><span>2022 - Current</span><br>Student programmer at the University Of South Dakota</li>
+             <li><span>2021 - 2022</span><br>ITS helpdesk at the University Of South Dakota</li>
+           </ul>
+         </div>
+
+         <div class="tab-contents" id="education">
+           <ul>
+             <li><span>2021 -2025</span><br>Bachelor of Science in Computer Science with minor in Mathematics</li>
+              <li><span>2023</span><br>Web Devlopment course- Code Path</li>
+           </ul>
+         </div>
+         
+       </div>
+    </div>
+    </div>
+  </div>
+<!-----------------------services---------------------->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Web Design Solutions Tailored to Your Brand's Vision and User Experience.</p>
+      </div>
+      
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/ UX Design</h2>
+        <p>Elevate your brand by employing UI/UX Design services, where aesthetics and functionality come together to create an unforgettable user journey.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!----------portfolio---------------->
+<div id="portfolio">
+  <div class="container">
+     <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+      <img src="Photos/Screenshot (99).png"> 
+        <div class="layer">
+          <h3>Social Impact Website</h3>
+          <p>This site promotes mental health awareness for MMA fighters, addressing broader mental health issues in teenagers, and actively working to prevent bullying among adolescents.</p>
+          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+        </div>
+      </div>
+     <div class="work">
+      <img src="Photos/Screenshot (100).png"> 
+       <div class="layer">
+         <h3>Social Impact Website</h3>
+         <p>This site promotes mental health awareness for MMA fighters, addressing broader mental health issues in teenagers, and actively working to prevent bullying among adolescents.</p>
+         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+       </div>
+      </div>
+    </div>
+    <div class="Work-list-2">
+      <div class="work-lower">
+      <img src="Photos/Screenshot (101).png">   
+        <div class="layer">
+          <h3>Social Impact Website</h3>
+          <p>This site promotes mental health awareness for MMA fighters, addressing broader mental health issues in teenagers, and actively working to prevent bullying among adolescents.</p>
+          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+        </div>
+      </div>
+      <div class="work-lower" style="position: relative; padding-bottom: 48.12500000000001%; height: 0;">
+          <iframe src="https://www.loom.com/embed/8bbdfe1e912d4555bdf4838dde82267f?sid=26bbe5df-a071-44a3-93c1-0af791b089c0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="Figma-section">
+    <div class="container">
+      <h1>UX/UI Projects</h1>
+
+      <h2>Interactive E-commerce Website Landing Page</h2>
+      <div class="project-description">
+      <p>Explore my latest project—a captivating Cosmetology E-commerce website landing page designed on Figma. Immerse yourself in the world of beauty and discover seamless shopping experiences. Click here to view!</p>
+      <p><a href="https://www.figma.com/proto/pVTAY5GOsNzPVTBTfKac1C/Project-2?type=design&t=SMLOmDl6AE39pJZ0-1&scaling=min-zoom&page-id=0%3A1&node-id=1-3&mode=design" target="_blank" rel="noopener noreferrer">Cosmetology E-commerce Website</a></p>
+      
+      <h2>Weightlifting Gym Landing Page</h2>
+      <div class="project-description">
+        <p>Experience the strength of design with my Figma-weightlifting gym landing page. Elevate your fitness journey through a seamlessly crafted website that mirrors the power and precision of your workouts.</p>
+        <p><a href="https://www.figma.com/proto/0ISuWFe1RytdyeSuesKD1j/Gym-Wireframe-Project?type=design&node-id=1-2&t=vIKZ9dwVfN3qDmcx-1&scaling=min-zoom&page-id=0%3A1&mode=design" target="_blank" rel="noopener noreferrer">Weightlifting Gym Website</a></p>
+        
+       
+          
+      </div>
+    </div>
+  </div>
+  
+</div> 
+
+
+  
+<!-------------------contact------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>disikwe@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>6056593295</p>
+        <div class="social-icons">
+           <a href="https://www.linkedin.com/in/david-isikwe-a47439231"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://github.com/davidisikwe"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="Chukwuemeka_Isikwe Resume.pdf" download class="btn btn2">Download CV</a>
+        
+      </div>
+     
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+
+<script>
+  var sideMenu= document.getElementById("sidemenu");
+
+  function openmenu(){
+      sideMenu.style.right= "0";
+  }
+  function closemenu(){
+      sideMenu.style.right= "-200px";
+  }
+</script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZC6UJnhf3BaXpzQnX3GQoTm48Z7dM3j8POwxRK2RN3zAZJ6ef7vCoVEWIJl-8aple/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML= "Message Sent successfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
